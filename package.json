@@ -1,0 +1,25 @@
+{
+  "name": "mdserv",
+  "version": "0.0.0",
+  "description": "static http server with markdown support",
+  "main": "index.js",
+  "bin": {
+    "mdserv": "cli.js"
+  },
+  "dependencies": {
+    "mime": "~1.2.7",
+    "marked": "~0.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "http",
+    "server",
+    "markdown"
+  ],
+  "author": "Bonuspunkt",
+  "license": "public domain"
+}
