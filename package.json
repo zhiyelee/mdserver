@@ -14,7 +14,9 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": "git://github.com/Bonuspunkt/mdserv.git",
+  "homepage": "https://github.com/Bonuspunkt/mdserv",
+  "bugs": "https://github.com/Bonuspunkt/mdserv/issues",
   "keywords": [
     "http",
     "server",

@@ -15,9 +15,9 @@ if you want to use it from the cli install it with
     mdserv init [directory]
 
 copies the .template.html to the directory. `directory` default to the current
-directory. the directory needs to exist, if the template exists, it will be 
+directory. the directory needs to exist, if the template exists, it will be
 overridden.
-    
+
     mdserv serve [directory] [port]
 
 starts a http server, that serves files from the directory.
@@ -33,8 +33,8 @@ starts a http server, that serves files from the directory.
 
 
 ## customizing
-you can edit the `.template.html` and all not `.md` `.markdown` will be served
-like from a static webserver.
+you can edit the `.template.html` and all not `.md` `.markdown` will be served,
+just like a static webserver would do.
 
 ##license
 public domain
