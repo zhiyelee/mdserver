@@ -1,19 +1,16 @@
 {
   "name": "mdserv",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "static http server with markdown support",
   "main": "index.js",
   "bin": {
-    "mdserv": "cli.js"
+    "mdserv": "bin/cli.js"
   },
   "dependencies": {
     "mime": "~1.2.7",
     "marked": "~0.2.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "node test/test.js"
-  },
   "repository": "git://github.com/Bonuspunkt/mdserv.git",
   "homepage": "https://github.com/Bonuspunkt/mdserv",
   "bugs": "https://github.com/Bonuspunkt/mdserv/issues",
