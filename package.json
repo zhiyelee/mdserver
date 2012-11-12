@@ -1,24 +1,25 @@
 {
-  "name": "mdserv",
+  "name": "mdserver",
   "version": "0.0.2",
   "description": "static http server with markdown support",
   "main": "index.js",
   "bin": {
-    "mdserv": "bin/cli.js"
+    "mdserver": "bin/cli.js"
   },
   "dependencies": {
     "mime": "~1.2.7",
     "marked": "~0.2.5"
   },
   "devDependencies": {},
-  "repository": "git://github.com/Bonuspunkt/mdserv.git",
-  "homepage": "https://github.com/Bonuspunkt/mdserv",
-  "bugs": "https://github.com/Bonuspunkt/mdserv/issues",
+  "repository": "git://github.com/zhiyelee/mdserver.git",
+  "homepage": "https://github.com/zhiyelee/mdserver",
+  "bugs": "https://github.com/zhiyelee/mdserver/issues",
   "keywords": [
     "http",
+    "nodejs",
     "server",
     "markdown"
   ],
-  "author": "Bonuspunkt",
+  "author": "zhiyelee",
   "license": "public domain"
 }
