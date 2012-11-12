@@ -28,7 +28,7 @@ starts a http server, that serves files from the directory.
 
     mdserve.init(dir, [callback])
 
-    var handler = mdserve.handler(wwwRoot);
+    var handler = mdserve.handler(rootDir);
     http.createServer(handler).listen(3340);
 
 
@@ -38,3 +38,6 @@ just like a static webserver would do.
 
 ##license
 public domain
+
+clone from `git://github.com/Bonuspunkt/mdserv.git`, modified by zhiyelee
+
