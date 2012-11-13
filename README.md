@@ -32,7 +32,7 @@ target_directory default to the current directory. The directory needs to exist,
     mdserver serve [directory] [port]
 
 starts a http server, that serves files from the directory.
-`directory` defaults to the current directory, `port` defaults to 3340
+`directory` defaults to the current directory, `port` defaults to `7878`
 
 ### module
 
@@ -42,7 +42,7 @@ var mdserver = require('mdserver');
 mdserver.init(dir, [callback])
 
 var handler = mdserver.handler(rootDir);
-http.createServer(handler).listen(3340);
+http.createServer(handler).listen(7878);
 ```
 
 
