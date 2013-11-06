@@ -1,14 +1,17 @@
 {
   "name": "mdserver",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "static http server with markdown support",
   "main": "index.js",
-  "bin": {
-    "mdserver": "bin/cli.js"
-  },
+  "bin": "bin/cli.js",
   "dependencies": {
     "mime": "~1.2.7",
-    "marked": "~0.2.5"
+    "marked": ">= 0.2.8",
+    "autoloader": "*",
+    "js-yaml": "*",
+    "optimist": "*",
+    "forever": "*",
+    "highlight.js": "*"
   },
   "devDependencies": {},
   "repository": "git://github.com/zhiyelee/mdserver.git",

@@ -133,7 +133,6 @@ table {
 body {
   font-size: 110%;
   line-height: 1.5;
-  /*12/18*/
   margin: 0;
 }
 
@@ -374,3 +373,10 @@ table caption {
 	color: #111;
   }
 }
+
+.bd { width:85%; padding:20px; margin:20px auto; border:1px solid #D4D4D4; border-radius:5px; box-shadow:0 0 4px #D1D1D1; }
+
+.pg-file-list { width:85%; padding:20px; margin:20px auto; }
+.file-list__item { padding:3px 0; font-size:18px; line-height:1.5; }
+.file-list__item:hover { background:#D1D1D1; }
+.pg-file-list h1 { padding-bottom:5px; border-bottom:1px solid #D1D1D1; }

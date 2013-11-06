@@ -50,7 +50,7 @@ http.createServer(handler).listen(7878);
 
 * stylesheet
 
-    you can edit the `.mdserver/base.css` to specify your prefered style.
+    you can edit the `.mdserver/custom.css` in serverd dir to custom style.
 * template
     
     you can also allowed to edit the `.mdserver/template.html`,which is the base template the server form the page.
