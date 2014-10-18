@@ -5,13 +5,12 @@
   "main": "index.js",
   "bin": "bin/cli.js",
   "dependencies": {
+    "forever": "^0.11.1",
+    "highlight.js": "^8.3.0",
+    "js-yaml": "^3.2.2",
+    "marked": "^0.3.2",
     "mime": "~1.2.7",
-    "marked": ">= 0.2.8",
-    "autoloader": "*",
-    "js-yaml": "*",
-    "optimist": "*",
-    "forever": "*",
-    "highlight.js": "*"
+    "optimist": "^0.6.1"
   },
   "devDependencies": {},
   "repository": "git://github.com/zhiyelee/mdserver.git",
@@ -23,6 +22,6 @@
     "server",
     "markdown"
   ],
-  "author": "zhiyelee <zhiyelee@tsnrose.com> (http://blog.tsnrose.com)",
-  "license": "public domain"
+  "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
+  "license": "MIT"
 }
