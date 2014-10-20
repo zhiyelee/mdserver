@@ -1,5 +1,0 @@
-configDir: '.mdserver'
-localConfigDir: '../config'
-
-port: '7878'
-division: '*=====================================*'
