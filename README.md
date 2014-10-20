@@ -1,8 +1,8 @@
 mdserver
 ==============
 
-[![NPM Version](http://img.shields.io/npm/v/mdserver?style=flat)](https://www.npmjs.org/package/mdserver)
-[![NPM Downloads](https://img.shields.io/npm/dm/mdserver?style=flat)](https://www.npmjs.org/package/mdserver)
+[![NPM Version](http://img.shields.io/npm/v/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
+[![NPM Downloads](https://img.shields.io/npm/dm/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
 
 markdown http server
 
