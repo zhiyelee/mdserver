@@ -1,6 +1,6 @@
 {
   "name": "mdserver",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "static http server with markdown support",
   "main": "index.js",
   "bin": "index.js",
