@@ -7,19 +7,33 @@ mdserver
 markdown http server
 
 ##installation
-    npm install mdserver
-
-if you want to use it from the cli, install it with
 
     npm install mdserver -g
 
 ## usage
 
 ```sh
+✍ mdserver -h
+
+  Usage: mdserver [options]
+
+  Options:
+
+    -h, --help        output usage information
+    -V, --version     output the version number
+    -p, --port <num>  serve with given port
+    -r, --root <path>  serve given path
+
+```
+
+
+## Examples
+
+```sh
 # use current dir and default port 3333
 mdserver
 
 # set root dir and port
-mdserver --port 8788 --root ~/github/mdserver
+mdserver -p 8788 -r ~/github/mdserver
 ```
 ... To be Continued...
