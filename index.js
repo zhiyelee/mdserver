@@ -11,4 +11,3 @@ program
     .parse(process.argv);
 
 serve(program.opts());
-
