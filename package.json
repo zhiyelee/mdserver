@@ -16,7 +16,11 @@
     "serve-markdown": "^0.1.4",
     "serve-static": "^1.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.1.0",
+    "supertest": "^0.14.0"
+  },
   "repository": "git://github.com/zhiyelee/mdserver.git",
   "homepage": "https://github.com/zhiyelee/mdserver",
   "bugs": "https://github.com/zhiyelee/mdserver/issues",
@@ -27,6 +31,9 @@
     "simpleHTTPServer",
     "markdown"
   ],
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks --require should test/"
+  },
   "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
   "license": "MIT"
 }
