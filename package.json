@@ -33,7 +33,7 @@
     "markdown"
   ],
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks --require should test/"
+    "test": "mocha --reporter spec --bail --check-leaks --require should test/",
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --require should test/"
   },
   "author": "zhiyelee <github@zhiye.li> (http://zhiye.li)",
