@@ -24,6 +24,7 @@ Static http server with markdown supported.
     -V, --version     output the version number
     -p, --port <num>  serve with given port
     -r, --root <path>  serve given path
+    -s, --silent       silent model without any log shown
 
 ```
 
