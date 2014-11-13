@@ -7,7 +7,9 @@ mdserver
 
 Static http server with markdown supported.
 
-##Installation
+Like the famous `SimpleHTTPServer` in python, `mdserver` can start a http server with given directory(default to current directory) as the `DocumentRoot`. U can also specify the port.
+
+## Installation
 
     npm install mdserver -g
 
@@ -28,11 +30,6 @@ Static http server with markdown supported.
 
 ```
 
-## Examples
-
-### Start server
-
-Like the famous `SimpleHTTPServer` in python, `mdserver` can start a http server with given directory(default to current directory) as the `DocumentRoot`. U can also specify the port which the server used.
 
 ```sh
 # use current dir and default port 3333
@@ -42,8 +39,5 @@ mdserver
 mdserver -p 8788 -r ~/github/mdserver
 ```
 
-### Enjoy ur server
-
 Visit: `http://localhost:8788 `
 
-... To be Continued...
