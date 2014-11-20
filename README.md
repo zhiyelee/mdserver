@@ -11,22 +11,27 @@ Static http server with markdown supported.
 
     npm install mdserver -g
 
-## Usage
+## Options
 
-```sh
-✍ mdserver -h
+### `-p, --port`
 
-  Usage: mdserver [options]
+The `port` used by the server. Default to `3333`
 
-  Options:
+### `-r, --root`
 
-    -h, --help        output usage information
-    -V, --version     output the version number
-    -p, --port <num>  serve with given port
-    -r, --root <path>  serve given path
-    -s, --silent       silent model without any log shown
+The `DocumentRoot` fo the server, Default to `cwd`(current dictionary)
 
-```
+### `-s, --silent`
+
+Use silent model, no logs will be displayed.
+
+### `-t, --template`
+
+Template used for the markdown pages. More about the template option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
+
+### `-l, --style`
+
+Stylesheet used for the markdown pages. More info please refer to [serve-markdown](https://github.com/zhiyelee/serve-markdown#template)
 
 ## Examples
 
@@ -42,8 +47,4 @@ mdserver
 mdserver -p 8788 -r ~/github/mdserver
 ```
 
-### Enjoy ur server
-
 Visit: `http://localhost:8788 `
-
-... To be Continued...

@@ -3,13 +3,13 @@ var util = require('util');
 var request = require('supertest');
 var mdserver = require('../lib/server');
 
+process.env.isTest = true;
 describe('mdserve', function(){
       describe('default directory', function(){
           var server;
           before(function () {
               server = mdserver({
-                  silent: true,
-                  __test: true
+                  silent: true
               });
           });
 
@@ -31,8 +31,9 @@ describe('mdserve', function(){
           before(function () {
               server = mdserver({
                   silent: true,
-                  __test: true,
-                  root: path.resolve(__dirname + '/fixtures')
+                  root: path.resolve(__dirname + '/fixtures'),
+                  style: '',
+                  template: '{{style}}<div>{{content}}</div>'
               });
           });
 
@@ -42,7 +43,7 @@ describe('mdserve', function(){
                   .expect(200, 'foo\n', done);
           });
           it('request markdown files', function(done){
-              var wrap = '<div class="markdown markdown-content">%s</div>'
+              var wrap = '<div>%s</div>'
               request(server)
                   .get('/bar.md')
                   .expect(200, util.format(wrap, '<h1 id="h1">h1</h1>\n'), done);
