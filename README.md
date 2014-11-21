@@ -15,26 +15,42 @@ Like the famous `SimpleHTTPServer` in python, `mdserver` can start a http server
 
 ## Options
 
-### `-p, --port`
+### -p, --port
+
+Type: `Number`
+Default: `3333`
 
 The `port` used by the server. Default to `3333`
 
-### `-r, --root`
+### -r, --root
 
-The `DocumentRoot` fo the server, Default to `cwd`(current dictionary)
+Type: `Path`
+Default: current work dictionary (`cwd`)
 
-### `-s, --silent`
+The `DocumentRoot` for the server.
 
-Use silent model, no logs will be displayed.
+### -s, --silent
 
-### `-t, --template`
+Type: `Boolean`
+Default: `false`
 
-Template used for the markdown pages. More about the template option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
+Silent mode. When set to `true`, there will no logs been displayed.
 
-### `-l, --style`
+### -t, --template
 
-Stylesheet used for the markdown pages. More info please refer to [serve-markdown](https://github.com/zhiyelee/serve-markdown#template)
+Type: `Path | String`
+Default: `undefined`
 
+Template used for the markdown pages.  If not set, the option will use the default value provided by the `serve-markdown` middleware.
+More about the option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
+
+### -l, --style
+
+Type: `Path | String`
+Default: `undefined`
+
+Stylesheet used for the markdown pages. If not set, the option will use the default value provided by the `serve-markdown` middleware.
+More about the option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
 
 ## Examples
 
