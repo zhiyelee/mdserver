@@ -36,12 +36,14 @@ Template used for the markdown pages. More about the template option please refe
 Stylesheet used for the markdown pages. More info please refer to [serve-markdown](https://github.com/zhiyelee/serve-markdown#template)
 
 
+## Examples
+
 ```sh
-# use current dir and default port 3333
+# use default options
 mdserver
 
-# set root dir and port
-mdserver -p 8788 -r ~/github/mdserver
+# custom port, root, and style
+mdserver -p 8788 -r ~/github/mdserver -l ~/github/style/base.css
 ```
 
 Visit: `http://localhost:8788 `
