@@ -39,27 +39,27 @@ Silent mode. When set to `true`, there will no logs been displayed.
 ### --ftpl
 
 Type: `Path | String`
-Default: `undefined`
+Default: `public/fileTpl.html`
 
 There are two types of pages  
 * `directory` page:  list the files and directories of the current dictionary
 * `file` page:  content of the current file
 
-`ftpl` is the template used for the `file` pages.  If not set, the option will use the default file provided by the application `public/fileTpl.html`
+`ftpl` is the template used for the `file` pages.  If not set, the option will use the default file provided by the application
 
 ### --dtpl
 
 Type: `Path | String`
-Default: `undefined`
+Default: `public/dirTpl.html`
 
-Template used for the `directory` pages.  If not set, the option will use the default file provided by the application `public/dirTpl.html`
+Template used for the `directory` pages.  If not set, the option will use the default file provided by the application
 
 ### -l, --style
 
 Type: `Path | String`
-Default: `undefined`
+Default: `public/screen.css`
 
-Stylesheet used for the both the `directory` and `file` page. If not set, the option will use the default value provided by the application `public/screen.css`
+Stylesheet used for the both the `directory` and `file` page. If not set, the option will use the default value provided by the application
 
 ## Examples
 
