@@ -8,7 +8,8 @@ program
     .option('-p, --port <num>', 'serve with given port')
     .option('-r, --root <path>', 'serve given path')
     .option('-s, --silent', 'silent model without any log shown')
-    .option('-t, --template <tpl>', 'template string or template-file path for markdown pages')
+    .option('--ftpl <filetpl>', 'template string or template-file path for markdown pages')
+    .option('--dtpl <dirtpl>', 'template string or template-file path for directory pages')
     .option('-l, --style <style>', 'style string or stylesheet-file path for markdown pages')
     .parse(process.argv);
 
