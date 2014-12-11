@@ -1,7 +1,7 @@
-2.1.4 / November 20, 2014
+2.1.4 / December 11, 2014
 ==================
   * update `serve-markdown` version
-  * support custom template and style for markdown pages
+  * provide custom template and style support for markdown pages
 
 2.1.3 / October 29, 2014
 ==================
