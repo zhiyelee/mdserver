@@ -36,21 +36,30 @@ Default: `false`
 
 Silent mode. When set to `true`, there will no logs been displayed.
 
-### -t, --template
+### --ftpl
 
 Type: `Path | String`
 Default: `undefined`
 
-Template used for the markdown pages.  If not set, the option will use the default value provided by the `serve-markdown` middleware.
-More about the option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
+There are two types of pages  
+* `directory` page:  list the files and directories of the current dictionary
+* `file` page:  content of the current file
+
+`ftpl` is the template used for the `file` pages.  If not set, the option will use the default file provided by the application `public/fileTpl.html`
+
+### --dtpl
+
+Type: `Path | String`
+Default: `undefined`
+
+Template used for the `directory` pages.  If not set, the option will use the default file provided by the application `public/dirTpl.html`
 
 ### -l, --style
 
 Type: `Path | String`
 Default: `undefined`
 
-Stylesheet used for the markdown pages. If not set, the option will use the default value provided by the `serve-markdown` middleware.
-More about the option please refer to [server-markdown](https://github.com/zhiyelee/serve-markdown#template)
+Stylesheet used for the both the `directory` and `file` page. If not set, the option will use the default value provided by the application `public/screen.css`
 
 ## Examples
 
