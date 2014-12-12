@@ -2,6 +2,7 @@
 ==================
   * add `--ftpl` and `--dtpl` options
   * add default templates and style of the app
+  
 2.1.4 / December 11, 2014
 ==================
   * update `serve-markdown` version
