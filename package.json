@@ -29,6 +29,8 @@
     "nodejs",
     "server",
     "simpleHTTPServer",
+    "markdown web server",
+    "markdown server",
     "markdown"
   ],
   "scripts": {
