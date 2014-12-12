@@ -22,6 +22,7 @@
 .directory-list li {
     list-style: none;
 }
+/*detail model*/
 .view-details .name {
     width: 55%;
 }
@@ -43,6 +44,35 @@
     width: 35%;
     text-align: right;
 }
+
+/*tile model*/
+.view-tiles::after {
+    display: inline-block;
+    content: '';
+    font-size: 0;
+    line-height: 0;
+}
+.view-tiles li {
+    display: inline-block;
+    width: 32%;
+    min-width: 5em;
+}
+.view-tiles li a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+}
+.view-tiles li a:hover {
+    background: #dddddd;
+    border-radius: 5px;
+}
+.view-tiles .date,
+.view-tiles .size {
+    display: none;
+}
+
 /* belowed from https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css */
 @font-face {
     font-family: octicons-anchor;
