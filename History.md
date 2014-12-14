@@ -1,6 +1,6 @@
 2.2.0 / December 12, 2014
 ==================
-  * add `--ftpl` and `--dtpl` options
+  * add `--ftpl`, `--dtpl` and `view` options
   * add default templates and style of the app
   
 2.1.4 / December 11, 2014

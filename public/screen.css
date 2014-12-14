@@ -68,6 +68,12 @@
     background: #dddddd;
     border-radius: 5px;
 }
+.view-tiles .name {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
 .view-tiles .date,
 .view-tiles .size {
     display: none;
