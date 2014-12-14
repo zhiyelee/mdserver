@@ -61,6 +61,14 @@ Default: `public/screen.css`
 
 Stylesheet used for the both the `directory` and `file` page. If not set, the option will use the default value provided by the application
 
+
+### --view
+
+Type: `String`
+Default: `tiles`
+
+Display mode. `tiles` and `details` are available.
+
 ## Examples
 
 ```sh

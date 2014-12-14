@@ -11,6 +11,7 @@ program
     .option('--ftpl <filetpl>', 'template string or template-file path for markdown pages')
     .option('--dtpl <dirtpl>', 'template string or template-file path for directory pages')
     .option('-l, --style <style>', 'style string or stylesheet-file path for markdown pages')
+    .option('--view <view mode>', 'display mode')
     .parse(process.argv);
 
 serve(program.opts());
