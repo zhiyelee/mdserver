@@ -65,9 +65,11 @@ Stylesheet used for the both the `directory` and `file` page. If not set, the op
 ### --view
 
 Type: `String`
-Default: `tiles`
+Default: `details`
 
-Display mode. `tiles` and `details` are available.
+Display mode.
+* `tiles` only display file name
+* `details` display name, size and mtime
 
 ## Examples
 
