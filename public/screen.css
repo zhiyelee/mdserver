@@ -11,7 +11,7 @@
     max-width: 790px;
     margin: 0 auto;
     padding: 30px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
 }
 .directory-list ul,
@@ -26,16 +26,32 @@
 .view-details .name {
     width: 55%;
 }
-.view-details .header {
+.view-details li:nth-child(odd) {
+    background: #eee;
+}
+.view-details li.header {
     border-bottom: 2px solid #55a532;
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 0.5em;
+    background: none;
+}
+.view-details li {
+    padding: 0.3em;
+    margin: 0.2em 0;
+}
+.view-details li a {
+    display: block;
+}
+.view-details li:hover {
+    background: #F7EBC6;
 }
 .view-details li span {
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    vertical-align: top;
 }
 .view-details .size {
     width: 10%;
