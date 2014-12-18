@@ -1,3 +1,7 @@
+2.2.1 / December 18, 2014
+==================
+  * update the default style
+
 2.2.0 / December 12, 2014
 ==================
   * add `--ftpl`, `--dtpl` and `view` options
