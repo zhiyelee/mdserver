@@ -88,4 +88,4 @@ Visit: `http://localhost:8788 `
 
 ## Snapshot
 
-![snapshot](https://github.com/zhiyelee/mdserver/raw/master/snapshot.png)
+![snapshot](https://github.com/zhiyelee/mdserver/raw/master/snapshot.gif)
