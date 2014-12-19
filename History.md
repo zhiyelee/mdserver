@@ -1,3 +1,7 @@
+2.2.2 / December 20, 2014
+==================
+  * update the README and add snapshot
+
 2.2.1 / December 18, 2014
 ==================
   * update the default style
