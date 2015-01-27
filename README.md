@@ -11,6 +11,9 @@ Static http server with markdown supported.
 
 Beside `markdown` files, `mdserver` supports most of the common used file types, include `html`, `json`, and other static files like `js`, `css`, and `png` etc. Due to those, `mdserver` can also be simply used as a alternative to the `python -m SimpleHTTPServer`.
 
+## Snapshot
+
+![snapshot](https://github.com/zhiyelee/mdserver/raw/master/snapshot.gif)
 
 ## Installation
 
@@ -86,6 +89,7 @@ mdserver -p 8788 -r ~/github/mdserver -l ~/github/style/base.css
 
 Visit: `http://localhost:8788 `
 
-## Snapshot
+## License
 
-![snapshot](https://github.com/zhiyelee/mdserver/raw/master/snapshot.gif)
+MIT License
+
