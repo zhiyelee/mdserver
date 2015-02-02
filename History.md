@@ -1,3 +1,7 @@
+2.2.3 / February 1, 2015
+==================
+  * update the README and description
+
 2.2.2 / December 20, 2014
 ==================
   * update the README and add snapshot

@@ -7,9 +7,8 @@ mdserver
 
 Static http server with markdown supported.
 
-`mdserver` can start a http server with given directory(default to current directory) as the `DocumentRoot`. U can also specify the port.
+`mdserver` can start a http server which acts like the `python -m SimpleHTTPServer` but has more [options](#Options)
 
-Beside `markdown` files, `mdserver` supports most of the common used file types, include `html`, `json`, and other static files like `js`, `css`, and `png` etc. Due to those, `mdserver` can also be simply used as a alternative to the `python -m SimpleHTTPServer`.
 
 ## Snapshot
 
