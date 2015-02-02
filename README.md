@@ -7,7 +7,7 @@ mdserver
 
 Static http server with markdown supported.
 
-`mdserver` can start a http server which acts like the `python -m SimpleHTTPServer` but has more [options](#Options)
+`mdserver` can start a http server which acts like the `python -m SimpleHTTPServer` but has more [options](#options)
 
 
 ## Snapshot
