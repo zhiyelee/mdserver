@@ -1,3 +1,7 @@
+2.2.4 / February 5, 2015
+==================
+  * update `serve-markdown` version with a small bug fix(filename contains encoded special chars, like `space - %20`)
+
 2.2.3 / February 1, 2015
 ==================
   * update the README and description
