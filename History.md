@@ -1,3 +1,8 @@
+
+2.2.5 / 2015-02-06
+==================
+  * clean css
+
 2.2.4 / February 5, 2015
 ==================
   * update `serve-markdown` version with a small bug fix(filename contains encoded special chars, like `space - %20`)
