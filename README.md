@@ -4,6 +4,7 @@ mdserver
  [![Build Status](https://api.travis-ci.org/zhiyelee/mdserver.svg)](http://travis-ci.org/zhiyelee/mdserver)
 [![NPM Version](http://img.shields.io/npm/v/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
 [![NPM Downloads](https://img.shields.io/npm/dm/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
+[![Coverage Status](https://coveralls.io/repos/zhiyelee/mdserver/badge.svg?branch=master)](https://coveralls.io/r/zhiyelee/mdserver?branch=master)
 
 Static http server with markdown supported.
 
