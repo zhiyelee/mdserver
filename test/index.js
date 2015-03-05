@@ -4,7 +4,7 @@ var request = require('supertest');
 var mdserver = require('../lib/server');
 
 process.env.isTest = true;
-describe('mdserve', function () {
+describe('mdserver', function () {
   describe('default directory', function () {
     var server;
     before(function () {
