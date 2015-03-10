@@ -3,7 +3,7 @@ var util = require('util');
 var request = require('supertest');
 var mdserver = require('../lib/server');
 
-process.env.isTest = true;
+process.env.TEST = true;
 describe('mdserver', function () {
   describe('default directory', function () {
     var server;

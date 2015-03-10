@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-var program = require('commander');
-var pkg = require('./package.json');
-var serve = require('./lib/server');
+var program = require('commander')
+  , pkg = require('./package.json')
+  , serve = require('./lib/server')
+  , debug = require('debug')('mdserver');
 
 program
     .version(pkg.version)
@@ -14,4 +15,5 @@ program
     .option('--view <view mode>', 'display mode')
     .parse(process.argv);
 
+debug('server started')
 serve(program.opts());
