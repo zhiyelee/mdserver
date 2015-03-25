@@ -1,7 +1,11 @@
 
-2.2.5 / 2015-02-06
+2.2.5 / 2015-03-25
 ==================
-  * clean css
+
+  * upgrade `serve-markdown`
+  * add `debug` support
+  * add `coverage` and `gitter` badges
+  * now support `0.12` and `io.js`
 
 2.2.4 / February 5, 2015
 ==================
