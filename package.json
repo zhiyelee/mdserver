@@ -1,6 +1,6 @@
 {
   "name": "mdserver",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "static http server with markdown supported",
   "main": "index.js",
   "bin": "index.js",
@@ -12,7 +12,7 @@
     "marked": "^0.3.2",
     "moment": "^2.8.3",
     "serve-index": "^1.5.0",
-    "serve-markdown": "^1.0.1",
+    "serve-markdown": "^1.1.0",
     "serve-static": "^1.7.0"
   },
   "devDependencies": {
