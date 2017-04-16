@@ -1,6 +1,8 @@
 mdserver
 ==============
 
+[![Join the chat at https://gitter.im/zhiyelee/mdserver](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zhiyelee/mdserver?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
  [![Build Status](https://api.travis-ci.org/zhiyelee/mdserver.svg)](http://travis-ci.org/zhiyelee/mdserver)
 [![NPM Version](http://img.shields.io/npm/v/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
 [![NPM Downloads](https://img.shields.io/npm/dm/mdserver.svg?style=flat)](https://www.npmjs.org/package/mdserver)
