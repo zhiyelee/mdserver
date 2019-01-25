@@ -46,7 +46,7 @@ Silent mode. When set to `true`, there will no logs been displayed.
 ### --ftpl
 
 Type: `Path | String`
-Default: `public/fileTpl.html`
+Default: `public/file_template.html`
 
 There are two types of pages  
 * `directory` page:  list the files and directories of the current dictionary
@@ -57,7 +57,7 @@ There are two types of pages
 ### --dtpl
 
 Type: `Path | String`
-Default: `public/dirTpl.html`
+Default: `public/dir_template.html`
 
 Template used for the `directory` pages.  If not set, the option will use the default file provided by the application
 
