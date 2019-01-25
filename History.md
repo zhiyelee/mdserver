@@ -1,4 +1,8 @@
 
+2.2.6 / 2019-01-25
+==================
+  * bugfix: markdown file could not be shown correctly in linux. thanks @RB-Lab @bugs1111
+
 2.2.5 / 2015-03-25
 ==================
 
